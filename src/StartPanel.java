@@ -4,14 +4,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class StartPanel implements ActionListener {
-    static final int SCREEN_WIDTH = 600;
-    static final int SCREEN_HEIGHT = 600;
+    static final int SCREEN_WIDTH = 700;
+    static final int SCREEN_HEIGHT = 700;
     JFrame frame = new JFrame();
     JButton button = new JButton("Start");
     JPanel panel = new JPanel();
 
     StartPanel(){
-        button.setBounds(200, 200,200,100);
+        button.setBounds(250, 250,200,100);
         button.setFocusable(false);
         button.addActionListener(this);
         frame.add(button);
